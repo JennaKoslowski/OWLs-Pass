@@ -10,30 +10,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/potions"/>
+        android:src="@drawable/potions"
+        android:contentDescription="@string/img"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/congrats"
         android:textColor="@android:color/white"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:padding="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/passed" />
+        android:text="@string/passed"
+        android:textSize="32sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/signed"
         android:textColor="@android:color/white"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:padding="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_above="@+id/staff"/>
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/staff"
+        android:layout_alignParentRight="true" />
 
     <TextView
         android:id="@+id/staff"
@@ -41,9 +47,10 @@
         android:layout_height="wrap_content"
         android:text="@string/staff"
         android:textColor="@android:color/white"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:padding="20dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
 </RelativeLayout>
