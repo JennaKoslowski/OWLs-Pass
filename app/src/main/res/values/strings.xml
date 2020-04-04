@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OWLs Pass</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="passed">You passed your OWLs!</string>
+    <string name="signed">Signed,</string>
+    <string name="staff">Hogwarts Staff</string>
 </resources>
